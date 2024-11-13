@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Handlee", cursive;
+    background-color: #f0f0f0; /* Fallback color */
+    background-image: url("https://note-vault-react.vercel.app/images/background-notevault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
